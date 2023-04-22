@@ -1,0 +1,115 @@
+*{
+    animation:  pyscho 0.7s infinite linear;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.profileImg{
+    background-image: url('IMG_0662.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 20px;
+   
+}
+.profileImg:hover{
+    animation: round 1.5s infinite  ;
+    scale: 1.1;
+    
+}
+.profileBio{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+.education{
+    margin: 20px;
+    margin-right: 120px;
+}
+.educationBio{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    justify-content: center;
+}
+.professionalExperience{
+    margin: 20px;
+    margin-right: 40px;
+}
+.professionalExperienceBio{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    justify-content: center;
+}
+.skills{
+    margin: 20px;
+    margin-right: 120px;
+}
+.skillsBio{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+   
+}
+.languages{
+    margin: 20px;
+    margin-right: 120px;
+}
+.languagesBio{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+}
+.project{
+    margin: 20px;
+    margin-right: 120px;
+}
+.projectBio{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+@keyframes pyscho{
+    0%{
+        background-color: red;
+    }
+    20%{
+        background-color: blue;
+    }
+    40%{
+        background-color: red;
+    }
+    60%{
+        background-color: yellow;
+    }
+    80%{
+        background-color: white;
+    }
+    100%{
+        background-color: green;
+    }
+}
+
+@keyframes round{
+    /* 0%{
+        transform: rotate(0deg);
+    } */
+    /* 50%{
+        transform: rotate(120deg);
+    }
+    75%{
+        transform: rotate(240deg);
+    } */
+    100%{
+        transform: rotate(1800deg);
+    }
+}
